@@ -1,0 +1,39 @@
+1-Dada as camadas do modelo TCP/IP, liste os principais protocolos que operam em cada uma destas camadas. 
+R: O Protocolo da Internet – IP; Endereçamento IP; IPv6; Máscara de Rede; O protocolo de controle de erros – ICMP; Tradução de endereços – ARP; Ethernet.
+
+2-Diferencie o protocolo TCP do protocolo UDP, citando três diferenças entre eles 
+R: UDP é um protocolo não confiável, sem controle de sequência, totalmente o contrário do TCP, e ele possui um desempenho melhor que o TCP.
+
+3-Com relação ao IPv4 e ao IPv6, qual a diferença entre estes protocolos? O que muda de um para o outro e como são formados? 
+R: o ipv6 tem um maior número de endereços IPs disponíveiscomparando com o IPV4; são utilizados 128 bits no IPV6, já no IPV4 são usado apenas 32; o IP mais usado em maquinas e usuários comuns é o IPV4, já o IPV6 não é muito utilizado; Os endereços IPv6 são formados por oito quartetos de
+caracteres hexadecimais, separados pelo caractere “:” (dois pontos)
+Exemplo: 2800 : 03f0 : 4001 : 0804 : 0000 : 0000 : 0000 : 101f
+Considerando o sistema hexadecimal, cada caractere representa 04 bits, ou 16 combinações.
+Ainda, considerando uma base hexadecimal temos a representação de 0 a 9 e a utilização das letras
+A, B, C, D, E e F, que são as representações das 16 combinações possíveis.
+
+4-Qual a função do protocolo ICMP? 
+R: O protocolo ICMP (Internet Control Message Protocol) tem a função de identificar erros em uma rede
+de computadores. Computadores, servidores, gateways, entre outros dispositivos da rede utilizam-se
+do protocolo ICMP para enviar mensagens e comunicar-se entre si.
+
+5-Cite três protocolos da camada de aplicação, o que fazem e para que servem. 
+R: Protocolo SMTP – responsável pela comunicação junto ao servidor de e-mails, para entrega
+destes, ao programa cliente que recebe as mensagens.
+• Protocolo HTTP – acionado cada vez que um usuário abre um browser (navegador) e digita
+um endereço de um site da internet.
+• Protocolo FTP – utilizado cada vez que um usuário acessa um endereço de FTP, para fazer
+download ou upload de arquivos (KUROSE, 2010).
+
+6-Por que o TCP é orientado a conexão? 
+R: significa que antes que qualquer transmissão de mensagens ou dados
+da aplicação seja feita, a camada de transporte, por meio do TCP.
+
+7-O que é IP? 
+R: Internet Protocol, é o endereço virtual da sua conexão.
+
+10-O que é DHCP?
+R: O protocolo DHCP (Dynamic Host Configuration Protocol), possui a função de distribuir a gerenciar
+endereços IP em uma rede de computadores.
+
+
